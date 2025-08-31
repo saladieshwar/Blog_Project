@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/styles5.css">
+  <title>Create New Blog</title>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Create New Blog</h2>
+    <form method="post">{% csrf_token %}
+      <input type="text" placeholder="Blog Title" name="title" required>
+      <input type="text" placeholder="Author Name" name="Author" required>
+      <input type="datetime-local" name="date_time" required>
+      <textarea rows="6" placeholder="Write your blog content here..." name="content" required></textarea>
+      <button type="submit">Post Blog</button>
+    </form>
+  </div>
+</body>
+</html>

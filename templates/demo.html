@@ -1,0 +1,23 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/static/styles1.css">
+  <title>Legendary Navbar</title>
+</head>
+<body>
+  <nav>
+  <div class="navbar">
+    <div class="brand">ES Blogs</div>
+    <div class="links">
+      <a href="{% url 'login' %}">LOGIN</a>
+      <a href="{% url 'register' %}">REGISTER</a>
+    </div>
+  </div>
+</nav>
+<h1 style="color:white;text-align:center;justify-content:center;margin-top:40vh; font-weight: 500;">Welcome To Blog's</h1>
+
+</body>
+</html>
