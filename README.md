@@ -47,7 +47,7 @@ Each post contains:
 
 1.Clone the repository
 
-    git clone https://github.com/your-username/your-blog-repo.git
+    git clone https://github.com/saladieshwar/Blog_Project.git
     cd your-blog-repo
 
 
