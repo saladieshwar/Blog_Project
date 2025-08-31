@@ -1,4 +1,4 @@
-# Django Blog_Website
+# Django-Blog-Website
 
 A simple yet powerful Blog Website built with the Django Framework.
 This project demonstrates the fundamentals of user authentication and content management with a clean and minimal design.
